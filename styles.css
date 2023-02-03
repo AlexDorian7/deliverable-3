@@ -8,7 +8,8 @@ html {
 }
 
 .b {
-    color: var(--goo-blue);
+    background-color: var(--goo-blue);
+    color: black;
 }
 
 main {
