@@ -9,6 +9,6 @@ function draw() {
     //translate(width/2, height/2);
     
     push();
-    rect(0,0,400,400);
+    rect(0,0,10000,100);
     pop();
 }
