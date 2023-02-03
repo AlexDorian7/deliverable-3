@@ -6,10 +6,16 @@ html {
     width: 100vw;
     height: 100vh;
 }
+.logo{
+    width: 80px;
+    height: 40px;
+    margin-left: 10px;
+}
 
 .b {
     background-color: var(--goo-blue);
     color: black;
+    margin-right: 30px;
 }
 
 main {
@@ -23,9 +29,8 @@ main {
     height: 100%;
 }
 
-nav a {
-    margin-left: 1em;
-    margin-right: 1em;
+.a {
+    text-align: center;
     color: black;
 }
 
