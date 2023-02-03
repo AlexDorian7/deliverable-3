@@ -1,0 +1,8 @@
+:root {
+    --goo-blue: #3f3fff;
+}
+
+.b {
+    color: var(--goo-blue);
+}
+
