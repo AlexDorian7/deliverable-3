@@ -13,21 +13,58 @@ html {
 }
 
 .na {
-    text-align: center;
+    position: absolute;
+    left: 40%;
     color: black;
-    margin-top: -40px;
+    margin-top: -35px;
 }
 
-.b {
-    background-color: var(--goo-blue);
+.s {
     color: black;
-    text-align: center;
-    margin: 50px;
-    margin-left: 10px;
-    border-radius: 3px;
+    position: absolute;
 }
 
 .b:hover{
+    opacity: 0.8;
+}
+
+.w {
+    color: black;
+    position: absolute;
+    left: 20%;
+}
+
+.w:hover{
+    opacity: 0.8;
+}
+
+.a {
+    color: black;
+    position: absolute;
+    left: 40%;
+}
+
+.a:hover{
+    opacity: 0.8;
+}
+
+.c {
+    color: black;
+    position: absolute;
+    left: 60%;
+}
+
+.c:hover{
+    opacity: 0.8;
+}
+
+.l {
+    color: black;
+    position: absolute;
+    left: 30%;
+}
+
+.l:hover{
     opacity: 0.8;
 }
 
