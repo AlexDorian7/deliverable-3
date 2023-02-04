@@ -19,6 +19,11 @@ html {
     margin-top: -35px;
 }
 
+.page{
+    position:absolute;
+    left: 40%;
+}
+
 .s {
     color: black;
     position: absolute;
