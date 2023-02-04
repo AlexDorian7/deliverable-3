@@ -12,6 +12,12 @@ html {
     margin-left: 10px;
 }
 
+.na {
+    text-align: center;
+    color: black;
+    margin-top: -40px;
+}
+
 .b {
     background-color: var(--goo-blue);
     color: black;
@@ -34,11 +40,6 @@ main {
     left: 0;
     width: 100%;
     height: 100%;
-}
-
-.na {
-    text-align: center;
-    color: black;
 }
 
 div.services {
