@@ -28,7 +28,7 @@ html {
 .s {
     color: black;
     position: absolute;
-    left: 20%;
+    left: 40%;
     top: 75%;
 }
 
@@ -39,7 +39,7 @@ html {
 .w {
     color: black;
     position: absolute;
-    left: 30%;
+    left: 47%;
     top: 75%;
 }
 
@@ -50,7 +50,7 @@ html {
 .a {
     color: black;
     position: absolute;
-    left: 47%;
+    left: 55%;
     top: 75%;
 }
 
@@ -60,9 +60,8 @@ html {
 
 .c {
     color: black;
-    color: black;
     position: absolute;
-    left: 70%;
+    left: 63%;
     top: 75%;
 }
 
@@ -73,7 +72,7 @@ html {
 .l {
     color: black;
     position: absolute;
-    left: 90px;
+    left: 32%;
     top: 75%;
 }
 
