@@ -20,14 +20,16 @@ html {
 }
 
 .page{
-    position: fixed;
-    bottom: 35%;
+    position: absolute;
+    bottom: 30%;
     left: 35%;
 }
 
 .s {
     color: black;
     position: absolute;
+    left: 20%;
+    top: 75%;
 }
 
 .s:hover{
@@ -37,7 +39,8 @@ html {
 .w {
     color: black;
     position: absolute;
-    left: 20%;
+    left: 30%;
+    top: 75%;
 }
 
 .w:hover{
@@ -47,7 +50,8 @@ html {
 .a {
     color: black;
     position: absolute;
-    left: 50%;
+    left: 47%;
+    top: 75%;
 }
 
 .a:hover{
@@ -56,8 +60,10 @@ html {
 
 .c {
     color: black;
+    color: black;
     position: absolute;
     left: 70%;
+    top: 75%;
 }
 
 .c:hover{
@@ -67,7 +73,8 @@ html {
 .l {
     color: black;
     position: absolute;
-    left: 90%;
+    left: 90px;
+    top: 75%;
 }
 
 .l:hover{
