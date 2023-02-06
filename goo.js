@@ -1,3 +1,5 @@
+const fillColor = "#00007F";
+
 function setup() {
     createCanvas(4096, 400);
 }
@@ -5,7 +7,7 @@ function setup() {
 function draw() {
     background(255);
     noStroke();
-    fill("#0000FF");
+    fill(fillColor);
     //translate(width/2, height/2);
     
     push();

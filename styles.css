@@ -84,6 +84,11 @@ main {
     height: 100%;
 }
 
+nav a {
+    display: inline-block;
+    box-shadow: var(--goo-blue) 2px 2px 2px 2px;
+}
+
 div.services {
     display: block;
     margin: auto;
