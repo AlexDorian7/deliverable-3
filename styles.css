@@ -21,16 +21,22 @@ html {
 
 .page{
     position: absolute;
-    bottom: 55%;
-    left: 35%;
+    top: 10%;
+    left: 26%;
 }
 
+.button{
+    background-color: rgb(63, 72, 204);
+    border: none;
+    border-radius: 10px;
+}
 .b {
     position: relative;
 }
 
 .b:hover{
-    opacity: 0.7;
+    opacity: 0.5;
+    color: black;
 }
 
 main {
