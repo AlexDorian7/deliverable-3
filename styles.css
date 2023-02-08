@@ -1,5 +1,10 @@
 :root {
     --goo-blue: #3f3fff;
+    --triad-red: #ff3f3f;
+    --triad-green: #3fff3f;
+    --compl: #ffff3f;
+    --split-compl-orange: #ff7f3f;
+    --split-compl-green: #7fff3f;
 }
 
 html {
