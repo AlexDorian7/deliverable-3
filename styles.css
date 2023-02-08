@@ -1,10 +1,5 @@
 :root {
     --goo-blue: #3f3fff;
-    --triad-red: #ff3f3f;
-    --triad-green: #3fff3f;
-    --compl: #ffff3f;
-    --split-compl-orange: #ff7f3f;
-    --split-compl-green: #7fff3f;
 }
 
 html {
@@ -34,7 +29,7 @@ html {
     position: absolute;
     left: 45%;
     top: 75%;
-    letter-spacing: 10#;
+    letter-spacing:  10#;
 }
 
 .b:hover{
@@ -42,7 +37,7 @@ html {
 }
 
 main {
-    overflow: hidden;
+    overflow-x: hidden;
     width: 100%;
     position:absolute;
     z-index: -10;
