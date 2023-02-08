@@ -21,7 +21,7 @@ html {
 
 .page{
     position: absolute;
-    bottom: 30%;
+    bottom: 55%;
     left: 35%;
 }
 
@@ -47,8 +47,8 @@ main {
 div.services {
     display: block;
     margin: auto;
-    margin-top: 650px;
-    margin-left: 585px;
+    margin-top: 660px;
+    margin-left: 590px;
 }
 
 div.services span {
