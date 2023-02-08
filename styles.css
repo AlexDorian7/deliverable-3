@@ -1,10 +1,5 @@
 :root {
     --goo-blue: #3f3fff;
-    --triad-red: #ff3f3f;
-    --triad-green: #3fff3f;
-    --compl: #ffff3f;
-    --split-compl-orange: #ff7f3f;
-    --split-compl-green: #7fff3f;
 }
 
 html {
@@ -31,60 +26,15 @@ html {
 }
 
 .b {
-    position: absolute;
-    top: 75%;
+    position: relative;
 }
 
 .b:hover{
     opacity: 0.8;
 }
-/*
-.w {
-    color: black;
-    position: absolute;
-    left: 47%;
-    top: 75%;
-}
 
-.w:hover{
-    opacity: 0.8;
-}
-
-.a {
-    color: black;
-    position: absolute;
-    left: 55%;
-    top: 75%;
-}
-
-.a:hover{
-    opacity: 0.8;
-}
-
-.c {
-    color: black;
-    position: absolute;
-    left: 63%;
-    top: 75%;
-}
-
-.c:hover{
-    opacity: 0.8;
-}
-
-.l {
-    color: black;
-    position: absolute;
-    left: 32%;
-    top: 75%;
-}
-
-.l:hover{
-    opacity: 0.8;
-}
-*/
 main {
-    overflow: hidden;
+    overflow-x: hidden;
     width: 100%;
     position:absolute;
     z-index: -10;
@@ -97,7 +47,8 @@ main {
 div.services {
     display: block;
     margin: auto;
-    margin-top: 400px;
+    margin-top: 650px;
+    margin-left: 580px;
 }
 
 div.services span {
