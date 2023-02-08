@@ -28,8 +28,9 @@ html {
 .button{
     background-color: var(--goo-blue);
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
 }
+
 .b {
     position: relative;
 }
