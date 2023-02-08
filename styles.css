@@ -86,7 +86,7 @@ main {
 
 nav a {
     display: inline-block;
-    box-shadow: var(--goo-blue) 2px 2px 2px 2px;
+    box-shadow: var(--goo-blue) 2px 2px 2px 2px; /* Make this look better */
 }
 
 div.services {
