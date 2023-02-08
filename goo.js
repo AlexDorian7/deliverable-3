@@ -1,7 +1,13 @@
 const fillColor = "#00007F";
 
+let drop = [];
+
 function setup() {
     createCanvas(4096, 400);
+    for (let i = 0; i < 100; i++) {
+        drop[i] = new Drop();
+        drop[i].ay = Math.random()/4 + 0.05;
+    }
 }
   
 function draw() {
@@ -20,4 +26,7 @@ function draw() {
     endShape(CLOSE);
     //rect(0,0,10000,100);
     pop();
+    for (let i = 0; i < 100; i++) {
+        drop[i].update();
+    }
 }
