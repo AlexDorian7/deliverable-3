@@ -25,17 +25,15 @@ html {
     left: 35%;
 }
 
-.s {
-    color: black;
+.b {
     position: absolute;
-    left: 40%;
     top: 75%;
 }
 
-.s:hover{
+.b:hover{
     opacity: 0.8;
 }
-
+/*
 .w {
     color: black;
     position: absolute;
@@ -79,7 +77,7 @@ html {
 .l:hover{
     opacity: 0.8;
 }
-
+*/
 main {
     overflow-x: hidden;
     width: 100%;
