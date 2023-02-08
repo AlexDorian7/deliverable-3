@@ -26,10 +26,7 @@ html {
 }
 
 .b {
-    position: absolute;
-    left: 45%;
-    top: 75%;
-    letter-spacing:  10#;
+    position: relative;
 }
 
 .b:hover{
@@ -50,7 +47,8 @@ main {
 div.services {
     display: block;
     margin: auto;
-    margin-top: 400px;
+    margin-top: 650px;
+    margin-left: 580px;
 }
 
 div.services span {
