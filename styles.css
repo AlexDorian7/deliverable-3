@@ -1,5 +1,5 @@
 :root {
-    --goo-blue: #3f3fff;
+    --goo-blue: rgb(63, 72, 204);
 }
 
 html {
@@ -26,7 +26,7 @@ html {
 }
 
 .button{
-    background-color: rgb(63, 72, 204);
+    background-color: var(--goo-blue);
     border: none;
     border-radius: 10px;
 }
