@@ -1,5 +1,6 @@
 :root {
     --goo-blue: #3f48cc;
+    --nav-bar: #808080;
 }
 
 html {
@@ -25,7 +26,7 @@ html {
 }
 
 .button{
-    background-color: var(--goo-blue);
+    background-color: var(--nav-bar);
     border: none;
     border-radius: 5px;
 }
@@ -58,7 +59,7 @@ main {
 div.services {
     display: block;
     margin: auto;
-    margin-top: 600px;
+    margin-top: 550px;
     margin-left: 590px;
 }
 
