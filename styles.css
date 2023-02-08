@@ -30,7 +30,7 @@ html {
 }
 
 .b:hover{
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 main {
@@ -48,7 +48,7 @@ div.services {
     display: block;
     margin: auto;
     margin-top: 650px;
-    margin-left: 580px;
+    margin-left: 585px;
 }
 
 div.services span {
