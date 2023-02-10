@@ -1,5 +1,6 @@
 :root {
-    --goo-blue: #3f3fff;
+    --goo-blue: #3f48cc;
+    --nav-bar: #808080;
 }
 
 html {
@@ -13,26 +14,35 @@ html {
 }
 
 .na {
-    position: absolute;
-    left: 45%;
-    color: black;
-    margin-top: -35px;
+   position: relative;
+   left: 95px;
+   bottom: 30px;
 }
 
 .page{
     position: absolute;
-    bottom: 30%;
-    left: 35%;
+    top: 10%;
+    left: 26%;
+}
+
+.button{
+    background-color: var(--nav-bar);
+    border: none;
+    border-radius: 5px;
 }
 
 .b {
     position: relative;
 }
 
-.b:hover{
-    opacity: 0.8;
+a{
+   color: black;
+   text-decoration: none;
 }
 
+a:hover{
+    opacity: 0.5;
+}
 main {
     overflow-x: hidden;
     width: 100%;
@@ -47,8 +57,8 @@ main {
 div.services {
     display: block;
     margin: auto;
-    margin-top: 650px;
-    margin-left: 580px;
+    margin-top: 550px;
+    margin-left: 590px;
 }
 
 div.services span {
