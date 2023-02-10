@@ -6,7 +6,7 @@ function setup() {
     createCanvas(4096, 400);
     for (let i = 0; i < 100; i++) {
         drop[i] = new Drop();
-        drop[i].ay = Math.random()/4 + 0.05;
+        drop[i].ay = Math.random()/8 + 0.001;
     }
 }
   
@@ -26,7 +26,7 @@ function draw() {
     endShape(CLOSE);
     //rect(0,0,10000,100);
     pop();
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 10; i++) {
         drop[i].update();
     }
 }
