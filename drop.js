@@ -2,7 +2,7 @@ const ground = 1100;
 
 class Drop {
   x = 0;
-  y = 600;
+  y = 1200;
   vx = 0;
   vy = 0;
   ax = 0;
