@@ -19,6 +19,9 @@ html {
    bottom: 30px;
 }
 
+.na:hover{
+    opacity: 0.5;
+}
 .page{
     position: absolute;
     top: 10%;
