@@ -2,6 +2,8 @@ const fillColor = "#BFBFFF";
 
 let drop = [];
 
+let time = 0;
+
 function setup() {
   createCanvas(4096, 1000);
   for (let i = 0; i < 100; i++) {
@@ -20,7 +22,7 @@ function draw() {
   beginShape();
   vertex(0, 0);
   for (let i = 0; i < 4096; i++) {
-    vertex(i, (sin(i / 10) + noise(i / 20) * 3) * 10 + 50);
+    vertex(i, (sin(i / 10) + noise(i / 20 + time) * 3) * 10 + 50);
   }
   vertex(4096, 0);
   endShape(CLOSE);
@@ -29,4 +31,5 @@ function draw() {
   for (let i = 0; i < 10; i++) {
     drop[i].update();
   }
+  time += 0.01;
 }

@@ -87,3 +87,15 @@ span.service-card a div {
 .title {
   text-align: center;
 }
+
+p.mission {
+  text-align: center;
+  font-style: italic;
+}
+
+div.footer {
+  background-image: linear-gradient(#80808000, #808080ff);
+  padding: 2em;
+  width: 100%;
+  margin-top: 3em;
+}
