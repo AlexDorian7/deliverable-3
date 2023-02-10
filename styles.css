@@ -3,20 +3,17 @@
   --nav-bar: #808080;
 }
 
-html {
+html,
+body {
   width: 100vw;
   height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
 }
 .logo {
   width: 80px;
   height: 40px;
   margin-left: 10px;
-}
-
-.na {
-  position: relative;
-  left: 95px;
-  bottom: 30px;
 }
 
 .page {
@@ -47,14 +44,13 @@ a:hover {
   opacity: 0.5;
 }
 main {
-  overflow-x: hidden;
-  width: 100%;
+  overflow: hidden;
   position: absolute;
   z-index: -10;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 
 div.services {
@@ -71,4 +67,23 @@ img.main-logo {
   padding-right: 25vw;
   width: 50vw;
   height: auto;
+}
+
+span.service-card {
+  display: inline-block;
+  border: 2px ridge var(--goo-blue);
+  border-radius: 1vw;
+}
+
+span.service-card a img {
+  width: 10vw;
+  height: auto;
+}
+
+span.service-card a div {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
 }
