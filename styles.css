@@ -19,9 +19,6 @@ html {
    bottom: 30px;
 }
 
-.na:hover{
-    opacity: 0.5;
-}
 .page{
     position: absolute;
     top: 10%;
@@ -38,16 +35,14 @@ html {
     position: relative;
 }
 
-.b:hover{
-    opacity: 0.5;
-    color: black;
-}
-
 a{
    color: black;
    text-decoration: none;
 }
 
+a:hover{
+    opacity: 0.5;
+}
 main {
     overflow-x: hidden;
     width: 100%;
