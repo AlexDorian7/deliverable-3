@@ -18,7 +18,8 @@ body {
 }
 
 .main-logo {
-  position: center;
+  position: relative;
+  margin-top: 40px;
 }
 
 .services-container {
