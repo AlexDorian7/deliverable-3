@@ -13,13 +13,12 @@ body {
 .logo {
   width: 80px;
   height: 40px;
+  padding-top: 5px;
   margin-left: 10px;
 }
 
-.page {
-  position: absolute;
-  top: 10%;
-  left: 26%;
+.main-logo {
+  position: center;
 }
 
 .services-container {
@@ -28,8 +27,23 @@ body {
   display: block;
   width: max-content;
   margin: auto;
+  color: black;
+  font-family: 'Orelega One', cursive;
+  font-size: 25px;
 }
 
+.box{
+  background-color: black;
+  color: white;
+  font-family: 'Orelega One', cursive;
+  border: none;
+  border-radius: 10px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  justify-content: center
+}
 .b {
   position: relative;
 }
@@ -70,7 +84,6 @@ img.main-logo {
 
 span.service-card {
   display: inline-block;
-  border: 2px ridge var(--nav-bar);
   border-radius: 1vw;
 }
 
