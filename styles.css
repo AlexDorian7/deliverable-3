@@ -1,6 +1,6 @@
 :root {
   --goo-blue: #3f48cc;
-  --nav-bar: #BFBFFF;
+  --nav-bar: #bfbfff;
 }
 
 html,
@@ -10,6 +10,7 @@ body {
   margin: 0;
   overflow-x: hidden;
 }
+
 .logo {
   width: 80px;
   height: 40px;
@@ -70,8 +71,15 @@ img.main-logo {
 
 span.service-card {
   display: inline-block;
-  border: 2px ridge var(--nav-bar);
+  /*border: 2px ridge var(--nav-bar);*/
   border-radius: 1vw;
+  background-color: black;
+  color: white;
+  padding: 1em;
+}
+
+span.service-card a {
+  color: white;
 }
 
 span.service-card a img {
@@ -97,4 +105,8 @@ div.footer {
   padding: 2em;
   width: 100%;
   margin-top: 3em;
+}
+
+img.main-logo {
+  padding-top: 7vh;
 }

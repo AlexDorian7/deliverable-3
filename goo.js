@@ -28,7 +28,7 @@ function draw() {
   endShape(CLOSE);
   //rect(0,0,10000,100);
   pop();
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 25; i++) {
     drop[i].update();
   }
   time += 0.01;
