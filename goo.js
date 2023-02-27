@@ -22,7 +22,7 @@ function draw() {
   beginShape();
   vertex(0, 0);
   for (let i = 0; i < 4096; i++) {
-    vertex(i, (sin(i / 10) + noise(i / 20 + time) * 3) * 10 + 50);
+    vertex(i, (sin(i / 20) + noise(i / 80 + time) * 3) * 10 + 75);
   }
   vertex(4096, 0);
   endShape(CLOSE);
