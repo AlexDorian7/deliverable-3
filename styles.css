@@ -100,6 +100,12 @@ p.mission {
   font-style: italic;
 }
 
+div.bodytext {
+	
+	padding-right: 80px;
+	padding-left: 80px;
+}
+
 div.footer {
   background-image: linear-gradient(#80808000, #808080ff);
   padding: 2em;
