@@ -101,9 +101,8 @@ p.mission {
 }
 
 div.bodytext {
-	
-	padding-right: 80px;
-	padding-left: 80px;
+  padding-right: 80px;
+  padding-left: 80px;
 }
 
 div.footer {
@@ -115,4 +114,9 @@ div.footer {
 
 img.main-logo {
   padding-top: 7vh;
+}
+
+span.required::before {
+  content: "*";
+  color: red;
 }
