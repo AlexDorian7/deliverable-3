@@ -9,10 +9,13 @@
   </head>
   <body>
     <nav>
-      <img class="logo" src="GUI_BOYZ_LOGO.png" alt="Logo Icon" />
+      <a href="index.html">
+        <img class="logo" src="GUI_BOYZ_LOGO.png" alt="Logo Icon" />
+      </a>
       <a href="#">About</a>
       <a href="#">Mission</a>
       <a href="#">Services</a>
+      <a href="ContactUs.html">Contact Us</a>
     </nav>
     <div>
       <!--<img
@@ -30,15 +33,65 @@
       </div>
     </div>
     <div class="bodytext">
+      <h3>Contact Us</h3>
+      <p>
+        Alex Dollar<br />
+        1050 1st Capitol Dr, St. Charles, MO<br />
+        <a href="mail:add941@lindenwood.edu">add941@lindenwood.edu</a>
+      </p>
+      <h3>Contact Form</h3>
       <form>
-        <label for="name">Name: </label>
-        <input type="text" name="name" required="true" />
-        <span class="required"></span>
-        <br />
-        <label for="email">Email: </label>
-        <input type="email" name="email" required="true" />
-        <span class="required"></span>
-        <br />
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <span class="form-field">
+                  <label for="name">Name: </label>
+                  <input type="text" name="name" required="true" />
+                  <span class="required"></span>
+                </span>
+              </td>
+              <td>
+                <span class="form-field">
+                  <label for="email">Email: </label>
+                  <input type="email" name="email" required="true" />
+                  <span class="required"></span>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="form-field">
+                  <label for="tel">Phone Number: </label>
+                  <input type="tel" name="tel" required="true" />
+                  <span class="required"></span>
+                </span>
+              </td>
+              <td>
+                <span class="form-field">
+                  <label for="address">Address: </label>
+                  <input type="test" name="address" required="true" />
+                  <span class="required"></span>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="form-field">
+                  <lable for="message">Reason: </lable>
+                  <textarea name="message" required="true"></textarea>
+                  <span class="required"></span>
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="submit" />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <span class="required"> = required</span>
       </form>
     </div>
     <div class="footer">I AM A FOOTER!!!</div>

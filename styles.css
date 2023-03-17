@@ -1,5 +1,6 @@
 :root {
   --goo-blue: #3f48cc;
+  --goo-blue-alpha: #3f48cc00;
   --nav-bar: #bfbfff;
 }
 
@@ -36,13 +37,18 @@ body {
 }
 
 a {
-  color: black;
+  color: ver(--goo-blue);
   text-decoration: none;
 }
 
 a:hover {
-  opacity: 0.8;
+  color: var(--nav-bar);
 }
+
+a:visited {
+  color: var(--goo-blue);
+}
+
 main {
   overflow: hidden;
   position: absolute;
@@ -119,4 +125,24 @@ img.main-logo {
 span.required::before {
   content: "*";
   color: red;
+}
+
+span.form-field {
+  border-bottom: 0.2em solid var(--goo-blue);
+  border-image: linear-gradient(
+      to right,
+      var(--goo-blue),
+      var(--goo-blue-alpha)
+    )
+    1;
+  margin-bottom: 0.5em;
+  display: inline-block;
+}
+
+form table {
+  width: 100%;
+}
+
+textarea {
+  resize: none;
 }
