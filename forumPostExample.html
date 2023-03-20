@@ -1,59 +1,54 @@
 <DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Example Thread - GUI Boyz</title>
-      <link rel="stylesheet" href="styles.css" />
-      <script src="forumReplies.js"></script>
-      <style>
-        .author {
-          color: var(--goo-blue);
-          margin-left: 1em;
+<html lang=en>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Thread - GUI Boyz</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="forumReplies.js"></script>
+    <style>
+        .author{
+            color:var(--goo-blue);
+            margin-left:1em;
         }
-        .post {
-          background-color: var(--nav-bar);
-          padding: 1em;
+        .post{
+            background-color:var(--nav-bar);
+            padding:1em;
         }
-        .comment {
-          padding-left: 1em;
+        .comment{
+            padding-left:1em;
         }
-        .time {
-          padding-left: 1em;
+        .time{
+            padding-left:1em;
         }
-      </style>
-    </head>
-    <body>
-      <nav>
-        <a href="index.html">
-          <img class="logo" src="GUI_BOYZ_LOGO.png" alt="Logo Icon" />
-        </a>
-        <a href="#">About</a>
-        <a href="#">Mission</a>
-        <a href="#">Services</a>
-        <a href="ContactUs.html">Contact Us</a>
-      </nav>
-      <br />
-      <p class="author">John Doe</p>
-      <!--<p class="time">March 15, 2023 3:30 PM</p>-->
-      <p class="post">Here is an example post</p>
-      <hr />
-      <div id="replies">
+    </style>
+</head>
+<body>
+    <nav>
+      <a href="index.html">
+        <img class="logo" src="GUI_BOYZ_LOGO.png" alt="Logo Icon" />
+      </a>
+      <a href="#">About</a>
+      <a href="#">Mission</a>
+      <a href="#">Services</a>
+      <a href="ContactUs.html">Contact Us</a>
+    </nav>
+    <br>
+	<p class="author">John Doe</p>
+    <!--<p class="time">March 15, 2023 3:30 PM</p>-->
+    <p class="post">Here is an example post</p>
+    <hr>
+	<div id="replies">
         <p class="author">Jane Doe</p>
         <!--<p class="time">March 15, 2023 4:15 PM</p>-->
-        <p class="comment">Example reply</p>
-      </div>
-      <hr />
-      <textarea
-        id="newReplyContent"
-        style="resize: none"
-        rows="5"
-        cols="100"
-      ></textarea>
-      <br />
-      <button class="forumButton" onclick="addReply()">Add a reply</button>
+		<p class="comment">Example reply</p>
+	</div>
+	<hr>
+	<textarea id="newReplyContent" style="resize:none;" rows=5 cols=100></textarea>
+	<br>
+	<button class="forumButton" onclick="addReply()">Add a reply</button>
 
-      <div class="footer">I AM A FOOTER!!!</div>
-    </body>
-  </html></DOCTYPE
->
+	
+    <div class="footer">I AM A FOOTER!!!</div>
+</body>
+</html>
